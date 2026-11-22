@@ -1,0 +1,19 @@
+{
+  "name": "geo-integrity-chain",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Solidity anchor registry for GeoIntegrity (Hardhat local chain)",
+  "scripts": {
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "chai": "^4.5.0",
+    "hardhat": "^2.22.17"
+  }
+}
